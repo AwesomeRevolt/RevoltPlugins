@@ -9,7 +9,7 @@
     const settings = JSON.parse(localStorage.getItem("revoltGifSettings") || "{}");
     return {
       apiKey: settings.apiKey || "API-KEY",
-      safeMode: settings.safeMode ?? true,
+      limit: Number(settings.limit) || 12,
     };
   };
 
@@ -100,26 +100,31 @@
 
     settingsMenu.innerHTML = `
       <label style="display:block;margin-bottom:6px;">
-        <input type="checkbox" id="safeModeToggle" ${settings.safeMode ? "checked" : ""}>
-        Enable Safe Mode
-      </label>
-      <label style="display:block;">
         API Key:
         <input type="text" id="apiKeyInput" value="${settings.apiKey}" style="width:100%;padding:4px;margin-top:2px;background:#222;border:1px solid #555;color:#eee;border-radius:4px;">
       </label>
+      <label style="display:block;margin-top:6px;">
+        Result Limit:
+        <input type="number" id="limitInput" min="1" max="50" value="${settings.limit}" style="width:100%;padding:4px;margin-top:2px;background:#222;border:1px solid #555;color:#eee;border-radius:4px;">
+      </label>
+      <small style="color:#888;">Max 50 results</small>
     `;
 
     settingsBtn.onclick = () => {
       settingsMenu.style.display = settingsMenu.style.display === "none" ? "block" : "none";
     };
 
-    settingsMenu.querySelector("#safeModeToggle").addEventListener("change", (e) => {
-      settings.safeMode = e.target.checked;
+    settingsMenu.querySelector("#apiKeyInput").addEventListener("input", (e) => {
+      settings.apiKey = e.target.value.trim();
       saveSettings(settings);
     });
 
-    settingsMenu.querySelector("#apiKeyInput").addEventListener("input", (e) => {
-      settings.apiKey = e.target.value.trim();
+    settingsMenu.querySelector("#limitInput").addEventListener("input", (e) => {
+      let val = Number(e.target.value);
+      if (isNaN(val) || val < 1) val = 1;
+      if (val > 50) val = 50;
+      settings.limit = val;
+      e.target.value = val;
       saveSettings(settings);
     });
 
@@ -189,7 +194,7 @@
 
       try {
         const res = await fetch(
-          `https://tenor.googleapis.com/v2/search?q=${encodeURIComponent(query)}&key=${settings.apiKey}&limit=12&contentfilter=${settings.safeMode ? "high" : "off"}`
+          `https://tenor.googleapis.com/v2/search?q=${encodeURIComponent(query)}&key=${settings.apiKey}&limit=${settings.limit}&contentfilter=high`
         );
         const data = await res.json();
 
