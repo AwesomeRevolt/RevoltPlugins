@@ -194,7 +194,7 @@
 
       try {
         const res = await fetch(
-          `https://tenor.googleapis.com/v2/search?q=${encodeURIComponent(query)}&key=${settings.apiKey}&limit=${settings.limit}&contentfilter=high`
+          `https://tenor.googleapis.com/v2/search?q=${encodeURIComponent(query)}&key=${settings.apiKey}&limit=${settings.limit}&contentfilter=low`
         );
         const data = await res.json();
 
