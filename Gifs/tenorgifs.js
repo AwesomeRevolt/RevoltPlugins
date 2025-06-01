@@ -151,7 +151,7 @@
     if (!textarea) return;
 
     const zeroWidthSpace = "\u200e";
-    const gifMarkdown = `[${zeroWidthSpace}](${url})`;
+    const gifMarkdown = `[${zeroWidthSpace}](${url})[ⓘ](<https://github.com/AwesomeRevolt/RevoltPlugins/tree/main/Gifs>)`;
 
     textarea.value += (textarea.value ? " " : "") + gifMarkdown;
 
