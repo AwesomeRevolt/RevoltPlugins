@@ -22,7 +22,7 @@ Or while on desktop client
 
 ```js
 xhr = new XMLHttpRequest();
-xhr.open("GET", "https://raw.githubusercontent.com/Asraye/RevoltPlugins/refs/heads/main/Gifs/tenorgifs.js");
+xhr.open("GET", "https://raw.githubusercontent.com/AwesomeRevolt/RevoltPlugins/refs/heads/main/Gifs/tenorgifs.js");
 xhr.send("");
 xhr.onload = function() {
   state.plugins.add({
