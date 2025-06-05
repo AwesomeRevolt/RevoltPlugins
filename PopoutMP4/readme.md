@@ -19,7 +19,7 @@
 
 ## Overview
 
-This plugin adds a draggable, resizable video popout - to any video on Revolt.  
+This plugin adds a draggable, resizable video popout — to any video on Revolt.  
 Each video gains a popout button that opens it in a floating window, complete with opacity control and snapping.
 
 Perfect for multitasking — pop out media while browsing or chatting in other channels.
@@ -75,6 +75,6 @@ xhr.onload = function() {
 ## Contribution & Support
 
 Bug reports, forks, and feature ideas are always welcome!  
-Feel free to fork, modify, or contribute back - and message me any time on [Revolt](https://rvlt.gg/hw1sDfMY).
+Feel free to fork, modify, or contribute back — and message me any time on [Revolt](https://rvlt.gg/hw1sDfMY).
 
 ---
