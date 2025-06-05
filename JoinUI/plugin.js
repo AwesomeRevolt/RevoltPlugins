@@ -98,13 +98,20 @@
     policyTextDiv.innerHTML = `By joining a server, you agree to the <a href="https://revolt.chat/aup" target="_blank" rel="noreferrer">Acceptable Use Policy.</a>`;
   }
 
-  function sanitizeInviteCode(raw) {
-    if (!raw) return '';
+function sanitizeInviteCode(raw) {
+  if (!raw) return '';
+  try {
+    const url = new URL(raw.startsWith('http') ? raw : `https://${raw}`);
+    const paths = url.pathname.split('/').filter(Boolean);
+    return paths.length ? paths[paths.length - 1] : '';
+  } catch {
     return raw
       .replace(/^https?:\/\/(rvlt\.gg|revolt\.chat)\/invite\//i, '')
       .replace(/^rvlt\.gg\//i, '')
       .trim();
   }
+}
+
 
   function setupTabs() {
     const modal = document.querySelector(classes.modalCreateServer);
