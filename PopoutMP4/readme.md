@@ -46,7 +46,7 @@ xhr.onload = function() {
   state.plugins.add({
       format: 1,
       version: "1.0",
-      namespace: "Asraye",
+      namespace: "AR",
       id: "PopoutMP4",
       entrypoint: xhr.response
   });
