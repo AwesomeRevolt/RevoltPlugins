@@ -1,8 +1,23 @@
 
 # GIF Button Plugin for Revolt
 
+---
+
+<div align="center">
+
+## 💖 Support & Donate 💖
+
+<a href="https://rvlt.gg/hw1sDfMY">
+  <img src="https://img.shields.io/badge/Support%20Server-Join%20Now-9b59b6?style=for-the-badge" alt="Support Server" />
+</a>  
+<a href="https://ko-fi.com/asraye">
+  <img src="https://img.shields.io/badge/Donate-Ko--Fi-orange?style=for-the-badge&logo=ko-fi" alt="Donate" />
+</a>
+
+</div>
 
 ---
+
 
 ## Getting Your Tenor API Key
 
