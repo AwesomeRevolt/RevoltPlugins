@@ -43,8 +43,8 @@ xhr.onload = function() {
   state.plugins.add({
       format: 1,
       version: "1.0",
-      namespace: "Asraye",
-      id: "gif-button",
+      namespace: "AR",
+      id: "GifUI",
       entrypoint: xhr.response
   });
   window.location.reload();
