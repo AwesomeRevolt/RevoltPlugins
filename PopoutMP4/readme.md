@@ -17,6 +17,15 @@
 
 ---
 
+## Changes (I MAY) Do
+
+- [ ] Add support for MP3s
+- [ ] Add support for Embeds (YouTube, etc)
+- [ ] Mobile support improvements
+
+---
+
+
 ## Overview
 
 This plugin adds a draggable, resizable video popout — to any video on Revolt.  
