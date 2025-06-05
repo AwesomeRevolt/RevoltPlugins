@@ -6,8 +6,12 @@
 
 ## 💖 Support & Donate 💖
 
-[![Support Server](https://img.shields.io/badge/Support%20Server-Join%20Now-5865F2?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiB2aWV3Qm94PSIwIDAgNDggNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9IiM1ODY1RjIiLz48cGF0aCBkPSJNMTYuODQ2IDI1LjE4M2MtMi44MDkgMC01LjExOSAyLjM1Mi01LjExOSA1LjI5MiAwIDIuMDk1IDIuMTE0IDMuMzQ3IDQuMjQ5IDMuMzQ3IDEuMjA5IDAgMi4yOTItLjU0NSAzLjA2OS0xLjM0NSAyLjYzIDIuNzQ0IDguNzQxIDYuOTIyIDguNzQxIDYuOTIycy0uOTc3LTEuMTU3LTEuNTc1LTIuMTktMy4wNzItMi41ODhjLjE2MS0uMTE1LjI5My0uMjQzLjQxMi0uMzg1IDEuNTUyLTIuMzI4IDIuNzA5LTUuMjQ5IDMuNzItOC40NTMtMS43MjQuODU2LTMuNjk0IDEuNDYzLTUuOTYgMS43Njh6Ii8+PHBhdGggZD0iTTMyLjU1NiAyMy4zNDZjLTIuNjE0IDAtNC43NDYgMi4xNzEtNC43NDYgNC44NDMgMCAxLjc2NSAxLjA5MiAzLjI3NCAyLjcxNSA0LjI4OS0yLjcwMSAxLjk4NS04LjAxIDYuNjYzLTguMDEgNi42NjNzLS41ODUtLjkxMy0xLjU4MS0yLjIyNGMtLjEzNy0uMTktLjI1MS0uMzc4LS4zNS0uNTc3IDIuMzIzLTEuMDUzIDQuMTg1LTMuMDA3IDQuNjU3LTUuMjU3LS45NjctLjY2MS0xLjU1OC0xLjc5OS0xLjU1OC0zLjA4NCAwLTIuMjcgMS44NjctNC4xMTIgNC4xNTItNC4xMTIgMS4yMTYgMCAyLjM0OS41MjIgMy4xODcgMS4zMzRhNS44MjYgNS44MjYgMCAwIDEgMS44Ni0uNTY1YzIuNjg3IDAgNC44NTggMi4xODMgNC44NTggNC44NjQgMCAxLjA4OS0uNDQyIDIuMDc3LTEuMTU0IDIuODA0LjMxMi4wNjUuNjA1LjA5LjkyMy4wOSA1LjYyNCAwIDEwLjA1Mi00LjQyNyAxMC4wNTItMTAuMDUzIDAtNS41OTUtNC40MjctMTAuMDUzLTEwLjA1Mi0xMC4wNTN6Ii8+PC9zdmc+)](https://rvlt.gg/hw1sDfMY)  
-[![Donate](https://img.shields.io/badge/Donate-Ko--Fi-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/asraye)
+<a href="https://rvlt.gg/hw1sDfMY">
+  <img src="https://img.shields.io/badge/Support%20Server-Join%20Now-9b59b6?style=for-the-badge" alt="Support Server" />
+</a>  
+<a href="https://ko-fi.com/asraye">
+  <img src="https://img.shields.io/badge/Donate-Ko--Fi-orange?style=for-the-badge&logo=ko-fi" alt="Donate" />
+</a>
 
 </div>
 
