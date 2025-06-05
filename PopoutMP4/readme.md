@@ -22,6 +22,7 @@
 - [ ] Add support for MP3s
 - [ ] Add support for Embeds (YouTube, etc)
 - [ ] Mobile support improvements
+- [ ] Improve resize (It's kind of janky currently as you need to be in the bottom right)
 
 ---
 
