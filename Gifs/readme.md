@@ -7,6 +7,9 @@
 
 ## 💖 Support & Donate 💖
 
+<a href="https://www.youtube.com/watch?v=7W0EDwojfIc">
+  <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Tutorial" />
+</a>
 <a href="https://rvlt.gg/hw1sDfMY">
   <img src="https://img.shields.io/badge/Support%20Server-Join%20Now-9b59b6?style=for-the-badge" alt="Support Server" />
 </a>  
