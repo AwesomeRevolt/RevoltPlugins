@@ -78,7 +78,7 @@ xhr.onload = function() {
 ## Troubleshooting
 
 - If no GIFs appear, make sure you replaced the `API-KEY` with a valid key.  
-- If the button does not show up, try reloading the page or reinstalling.  
+- If the button does not show up, try reloading the page or reinstalling. (PS: The button will not show up if you do not have `upload files` permission in the server  
 - The dropdown may be hidden behind other UI elements if the window is small. Try resizing.
 
 ---
