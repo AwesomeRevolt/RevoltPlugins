@@ -1,6 +1,6 @@
 # Contributing to AwesomeRevolt Plugins
 
-Thank you for your interest in contributing to AwesomeRevolt Plugins! We welcome all kinds of contributions - whether it's adding new plugins, or improving/bug fixing currently existing ones!
+Thank you for your interest in contributing to AwesomeRevolt Plugins! We welcome all kinds of contributions — whether it's adding new plugins, or improving/bug fixing currently existing ones!
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ Thank you for your interest in contributing to AwesomeRevolt Plugins! We welcome
    - `repo` (Repository link)
    - `tags` (array of descriptive tags)
    - `featured` (Please do not use this, this is mainly for AR team plugins :3)
-   - `image` (URL to an icon or screenshot, optional - otherwise set to "null")
+   - `image` (URL to an icon or screenshot, optional — otherwise set to "null")
 4. Make sure your metadata follows the [Plugin Metadata Format](#plugin-metadata-format).
 5. Submit a Pull Request describing your plugin and any relevant details.
 
