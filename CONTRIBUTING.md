@@ -50,7 +50,7 @@ Your plugin metadata should look like this:
 
 1. Fork the repository and create your branch from `main`.
 2. Make your changes in your branch.
-3. Ensure your code passes linting and tests.
+3. Ensure your code functions
 4. Submit a Pull Request with a clear description of your plugin, what it does, etc.
 
 ---
