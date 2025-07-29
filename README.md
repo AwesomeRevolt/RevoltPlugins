@@ -25,3 +25,4 @@ We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for
 - [GitHub Repository](https://github.com/AwesomeRevolt/RevoltPlugins)
 - [Support Community](https://app.revolt.chat/invite/6D33wdRz)
 
+
