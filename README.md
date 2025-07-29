@@ -1,6 +1,6 @@
 # AwesomeRevolt Plugins
 
-Welcome to **AwesomeRevolt Plugins** - a community-driven collection of plugins designed for the Revolt platform.
+Welcome to **AwesomeRevolt Plugins** — a community—driven collection of plugins designed for the Revolt platform.
 
 ## Features
 
