@@ -1,1 +1,65 @@
-This'll be used soon to auto-display plugins on https://plugins.awesomerevolt.com, and allow users to submit their own plugins via pull requests
+[
+  {
+    "name": "Gifs",
+    "author": "Asraye",
+    "description": "GIF Menu Using Tenor API",
+    "repo": "https://github.com/AwesomeRevolt/RevoltPlugins/tree/main/Gifs",
+    "tags": ["feature", "general"],
+    "featured": true,
+    "image": "https://play-lh.googleusercontent.com/ycHJqqNVtnAJbsnzHlDcTVlwcOhFygF8DmF_kCM8pkb8E6Fk9RFm8TjBARWnNiy0YD4=w240-h480"
+  },
+  {
+    "name": "JoinUI",
+    "author": "Asraye",
+    "description": "Add a Join UI into Revite natively, in the create server section",
+    "repo": "https://github.com/AwesomeRevolt/RevoltPlugins/tree/main/JoinUI",
+    "tags": ["feature", "improvement"],
+    "featured": true,
+    "image": null
+  },
+  {
+    "name": "PopoutMP4",
+    "author": "Asraye",
+    "description": "Adds a widget for MP4s to which you can pop them out and watch them anywhere on the platform",
+    "repo": "https://github.com/AwesomeRevolt/RevoltPlugins/tree/main/PopoutMP4",
+    "tags": ["feature", "general"],
+    "featured": true,
+    "image": null
+  },
+  {
+    "name": "Masquerade ",
+    "author": "LazyCat2",
+    "description": "A revolt plugin that makes you able to use masquerade.",
+    "repo": "https://github.com/LazyCat2/revolt-plugins/tree/main/masquerade",
+    "tags": ["feature", "general"],
+    "featured": false,
+    "image": null
+  },
+  {
+    "name": "Emoji Packs ",
+    "author": "LazyCat2",
+    "description": "Create and share emoji packs. Use emojis without joining server with them.",
+    "repo": "https://github.com/LazyCat2/revolt-plugins/tree/main/emoji-packs",
+    "tags": ["feature", "general"],
+    "featured": false,
+    "image": null
+  },
+  {
+    "name": "Sanitizer",
+    "author": "LazyCat2",
+    "description": "Removes zalgo from user content (messages, usernames, etc) and replaces unicode letters with ascii",
+    "repo": "https://github.com/LazyCat2/revolt-plugins/tree/main/sanitizer",
+    "tags": ["feature", "improvement"],
+    "featured": false,
+    "image": null
+  },
+  {
+    "name": "Survive on mobile",
+    "author": "LazyCat2",
+    "description": "A revolt plugin that makes you able to use console in mobile and get notified about any error/warning.",
+    "repo": "https://github.com/LazyCat2/revolt-plugins/tree/main/survive-on-mobile",
+    "tags": ["feature", "improvement"],
+    "featured": false,
+    "image": null
+  },
+]
